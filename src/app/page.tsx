@@ -9,6 +9,7 @@ export default function Home() {
     <div>
       <Navbar
         navbarLinkFeatures={"Test link"}
+        navbarLinkProducts={"Test products"}
       ></Navbar>
       <Footer/>
     <Section
