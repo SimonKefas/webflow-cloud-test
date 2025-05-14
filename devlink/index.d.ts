@@ -11,5 +11,6 @@ export * from "./utils";
 export * from "./devlink";
 export * from "./DevLinkProvider";
 export * from "./Footer";
+export * from "./Hero";
 export * from "./LocaleDropdown";
 export * from "./Navbar";

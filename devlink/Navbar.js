@@ -17,6 +17,7 @@ export function Navbar({
   navbarLinkContact = "Contact",
   buttonTextGetStarted = "Get started",
   localeDropdownSlot,
+  runtimeProps = {},
 }) {
   _interactions.useInteractions(_interactionsData, _styles);
 

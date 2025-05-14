@@ -3,6 +3,7 @@
 import { Section, Block, Link } from "../../devlink/_Builtin";
 import { Navbar } from "../../devlink";
 import { Footer } from "../../devlink";
+import { Hero } from "../../devlink";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         navbarLinkFeatures={"Test link"}
         navbarLinkProducts={"Test products"}
       ></Navbar>
+      <Hero></Hero>
       <Footer/>
     <Section
       tag="section"
