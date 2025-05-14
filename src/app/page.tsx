@@ -1,9 +1,17 @@
 "use client";
 
 import { Section, Block, Link } from "../../devlink/_Builtin";
+import { Navbar } from "../../devlink";
+import { Footer } from "../../devlink";
+import test from "node:test";
 
 export default function Home() {
   return (
+    <div>
+      <Navbar
+        navbarLinkFeatures={"Features"}
+      ></Navbar>
+      <Footer/>
     <Section
       tag="section"
       style={{
@@ -53,5 +61,6 @@ export default function Home() {
         </Block>
       </Block>
     </Section>
+    </div>
   );
 }
